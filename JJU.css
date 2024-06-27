@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(jju2.jpg);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+.Header h1{
+  
+    text-align: center;
+   position: relative;
+}
+#sawirka1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    left: 20px;
+    top: 10px;
+   
+    }
+
+
+.Header{
+    background: rgb(0, 100,0);
+    text-align: center;
+   position: relative;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+nav ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+}
+ nav ul li a:hover{
+    background: #2bab0d;
+    padding: 5px;
+    border-radius: 3px;
+}
+.sub-1{
+    display: none;
+}
+nav ul li:hover .sub-1{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+nav ul li:hover .sub-1 ul{
+    display: block;
+    margin: 10px;
+}
+nav ul li:hover .sub-1 ul li{
+width: 150px;
+padding: 10px;
+border-bottom:1px solid white ;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+nav ul li:hover .sub-1 ul li:last-child{
+    border-bottom: none;
+}
+nav ul li:hover .sub-1 ul li a{
+    color: #b2ff00;
+}
+.Body-inform{
+    height: 500px;
+    margin:0px 50px ;
+    text-align: center;
+border: 1px solid lightblue;
+    
+}
+.Body-inform h1{
+   
+    margin:10px 0px ;
+}
+.Body-inform h2{
+    margin-bottom: 10px;
+}
+img{
+    float: right;
+ border-radius: 20px;
+ mix-blend-mode: multiply;
+    
+}
+.footer{
+    background-color: black;
+    height: 150px;
+    color: #fff;
+    text-align: center;
+    
+}
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.5;
+}
+.footer a{
+    
+    text-decoration: none;
+    color: #fff;
+}
+.footer a:hover{
+    color: #2bab0d;
+}
